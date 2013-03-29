@@ -4,14 +4,14 @@
 @import "typography";
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 ::-moz-selection,
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 // import media last so its styles are at the bottom of the compliled css

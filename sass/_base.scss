@@ -1,1 +1,10 @@
-//put variables, placeholders and custom mixins in here
+//put variables, placeholders and custom mixins in here// put all variables, placeholders and custom mixins here
+
+%clearfix{
+  *zoom: 1;
+  &:after{
+    content: " ";
+    clear: both;
+    display: table;
+  }
+}
