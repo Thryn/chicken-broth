@@ -18,9 +18,17 @@
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
     <![endif]-->
-    <h1>Chicken Broth</h1>
-    <p>A plain base for new web projects</p>
-    <a href="preview.html">Preview</a>
+    
+    <!-- inline styles so the boilerplate css isn't cluttered up -->
+    <div class="content" style="width: 600px; margin: 0 auto;">
+    <h1>This is an h1 tag</h1>
+    <h2>This is an h2 tag</h2>
+    <h3>This is an h3 tag</h3>
+    <h4>This is an h4 tag</h4>
+    <h5>This is an h5 tag</h5>
+    <h6>This is an h6 tag</h6>
+    <p>This is a paragraph about tigers. The tiger is the largest cat species, reaching a total body length of up to 3.3 m and weighing up to 306 kg. Its most recognizable feature is a pattern of dark vertical stripes on reddish-orange fur with a lighter underside.</p>
+    </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
@@ -28,6 +36,11 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
-    <!-- Google Analytics tags would go here -->
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
   </body>
 </html>
