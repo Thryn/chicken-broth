@@ -60,16 +60,9 @@ hr {
 }
 
 // Address styling not present in IE 6/7/8/9.
-
 mark {
   background: #ff0;
   color: #000;
-}
-
-// Address margins set differently in IE 6/7.
-p,
-pre {
-  margin: 1em 0;
 }
 
 // Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
@@ -87,11 +80,6 @@ pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
-}
-
-// Address CSS quotes not supported in IE 6/7.
-q {
-  quotes: none;
 }
 
 // Address `quotes` property not supported in Safari 4.
